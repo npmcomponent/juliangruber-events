@@ -1,4 +1,4 @@
-var Emitter = require('emitter');
+var Emitter = require('component-emitter');
 
 // alias all the things!
 Emitter.prototype.addListener = Emitter.prototype.on;
